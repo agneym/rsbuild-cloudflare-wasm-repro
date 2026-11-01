@@ -1,0 +1,14 @@
+{
+  "name": "rsbuild-cloudflare-wasm-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "rsbuild dev",
+    "build": "rsbuild build"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "2.2.12",
+    "cf": "1.0.0-beta.24",
+    "rsbuild-plugin-cloudflare": "0.0.2"
+  }
+}
